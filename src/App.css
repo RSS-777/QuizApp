@@ -1,0 +1,12 @@
+@import 'normalize.css';
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(gray, black);
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
