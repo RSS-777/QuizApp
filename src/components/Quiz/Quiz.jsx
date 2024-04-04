@@ -84,7 +84,7 @@ export const Quiz = () => {
                 <div className={circleClasses[2]}></div>
             </div>
             <div className={finish ? "info" : 'info info-hidden'}>
-                <p>Your result: {correctAnswer}</p>
+                <p>Your result: {correctAnswer} from {allPage}</p>
                 <button onClick={handlerRepeat}>To repeat!!!</button>
             </div>
         </div>
